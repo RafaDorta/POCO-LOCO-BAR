@@ -90,6 +90,9 @@ app.get('/cssPagamento',function (req,res) {
 app.get('/cssPorcoes',function (req,res) {
   res.sendFile(__dirname + '/html/CSS/porcoes.css')
 })
+app.get('/cssRealizado',function (req,res) {
+  res.sendFile(__dirname + '/html/CSS/realizado.css')
+})
 
 app.get('/logo',function (req,res) {
   res.sendFile(__dirname + '/html/IMGS/LOGO.png')
@@ -196,6 +199,9 @@ app.get('/lanches', (req, res) => {
 })
 app.get('/tabacaria', (req, res) => {
   res.sendFile(path.join(__dirname,'/html/tabacaria.html'))
+})
+app.get('/realizado', (req, res) => {
+  res.sendFile(path.join(__dirname,'/html/pagamentoRealizado.html'))
 })
 
 app.post('/users', (req,res) => {
