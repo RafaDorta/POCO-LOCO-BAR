@@ -1,4 +1,27 @@
 .realizado{
   min-height: 100vh;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 192, 22);
+}
+i{
+  color: white;
+  font-size: 150px;
+}
+h1 {
+  color: white;
+  font-size: 1.5em;
+}
+.a{
+  width: 150px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(22, 192, 22);
+}
+.a:hover{
+  color: rgb(22, 192, 22);
 }

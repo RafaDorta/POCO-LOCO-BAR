@@ -91,7 +91,7 @@ app.get('/cssPorcoes',function (req,res) {
   res.sendFile(__dirname + '/html/CSS/porcoes.css')
 })
 app.get('/cssRealizado',function (req,res) {
-  res.sendFile(__dirname + '/html/CSS/realizado.css')
+  res.sendFile(__dirname + '/html/CSS/pagamentoRealizado.css')
 })
 
 app.get('/logo',function (req,res) {
