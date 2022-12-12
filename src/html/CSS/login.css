@@ -1,0 +1,21 @@
+:root {
+  --bgColor: #fff;
+  --secundaryColor: #eb6100;
+  --btnBackColor: #cb661d;
+  --fontColor: #0d0d0d;
+  --x: #616161;
+}
+.img-login {
+  width: 280px;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 5px;
+  color: var(--secundaryColor);
+  font-size: 1.1rem;
+}
+.link:hover {
+  text-decoration: underline;
+  color: var(--secundaryColor);
+}

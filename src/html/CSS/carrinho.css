@@ -1,0 +1,34 @@
+:root {
+  --bgColor: #fff;
+  --secundaryColor: #eb6100;
+  --btnBackColor: #cb661d;
+  --fontColor: #0d0d0d;
+  --x: #616161;
+}
+.img-carrinho {
+  width: 120px;
+}
+.areaPagamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+.btn-carrinho {
+  width: 16rem;
+}
+.centralizar {
+  position: relative;
+  top: 20px;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 1.6rem;
+  color: var(--secundaryColor);
+  text-shadow: 2px 2px 4px #0d0d0d;
+}
+h5 {
+  position: relative;
+  top: 6px;
+}
